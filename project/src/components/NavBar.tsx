@@ -112,7 +112,7 @@ export function NavBar() {
   `;
 
   // Logo URL
-  const logoUrl =  'https://assets.grok.com/users/83540ee0-9ebb-43aa-97d4-0e7f2cbe9894/lHYJcSSO59beMMdD-generated_image.jpg';
+  const logoUrl =  'https://t4.ftcdn.net/jpg/02/67/39/69/240_F_267396926_E3VSFb253aHBidRSIuhqaiwyFuOTyfG2.jpg';
 
   return (
     <nav 
@@ -128,7 +128,7 @@ export function NavBar() {
             <img 
               src={logoUrl} 
               alt="AP Logo" 
-              className="  h-16 w-auto object-contain logo-particle" // Increased from h-12 to h-16
+              className="  h-20 w-auto object-contain logo-particle" // Increased from h-12 to h-16
               style={{ background: '' }} // Ensure transparent background
               onError={(e) => {
                 console.error('Error loading logo image.');

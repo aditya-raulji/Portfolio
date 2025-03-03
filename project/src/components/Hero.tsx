@@ -158,8 +158,10 @@ export function Hero() {
                 <Download size={18} />
                 Download Resume
               </button>
-              <button className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-white/5 text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 flex items-center gap-2">
-                View Work
+              <button className="text-sm md:text-base px-4 md:px-6 py-2 md:py-3 rounded bg-white/5 text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+              
+              >
+                <a href="https://www.veed.io/view/c4db7beb-33d6-4bfa-a4dc-16f69bfd5827?panel=share"> Full-stack Project video </a>
                 <ArrowRight size={18} />
               </button>
             </div>
